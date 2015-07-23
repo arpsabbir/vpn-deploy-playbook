@@ -2,12 +2,10 @@
 
 shadowsocks_servers:
 
-  multiport_mannual:
+  multiport:
     port_password:
-      8838: "ssserver-very-long-password"
-      8839: "ssserver-very-long-password"
+      38838: "ssserver-very-long-password-38838"
+      38839: "ssserver-very-long-password-38839"
+      38840: "ssserver-very-long-password-38840"
     enable_udp: true
 
-
-  multiport_auto:
-    enable_udp: true
