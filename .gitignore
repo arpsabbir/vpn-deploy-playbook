@@ -1,7 +1,9 @@
 ansible_hosts
-host_vars/*.yml
+host_vars/*
 group_vars/*.yml
 *.sw*
+cred/*
+vendor-roles/*
 
 # Created by http://www.gitignore.io
 
